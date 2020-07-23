@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+
+.waifutext{
+    font-family: fantasy;
+    font-size: 4rem;
+    border-right: 5px solid pink;
+    border-bottom: 5px solid pink;
+    width: 500px;
+    box-shadow: 10px 10px 15px 5px #b163aa;
+    background-color: thistle;
+    color: violet;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.waifus{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+img{
+    margin: 20px;
+    width: 400px;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
